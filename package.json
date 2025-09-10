@@ -11,7 +11,7 @@
     "format": "prettier . --write",
     "format:check": "prettier . --check",
     "typecheck": "tsc -p tsconfig.json --noEmit",
-    "prepare": "husky install"
+    "prepare": "husky"
   },
   "dependencies": {
     "next": "15.5.2",
