@@ -6,3 +6,4 @@ export default async function Home() {
   if (error) return <div>Erreur de connexion : {error.message}</div>;
   return <pre>{JSON.stringify(data, null, 2)}</pre>; // Affiche les données en JSON
 }
+// Test Vercel ivantz-staging.
